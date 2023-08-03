@@ -8,7 +8,7 @@
     <section id="main-header">
         <div class="header-content">
             <div class="header-con-logo">
-                <img src="/src/images/eclozer-logo-white.png" alt="">
+                <img src="/images/eclozer-logo-white.png" alt="">
             </div>
             <h2 class="header-h2">
                항상 고객의 소리에 귀를 기울입니다.<br>
@@ -36,7 +36,7 @@
             <h1>flatform-business</h1>
             <div>
                 <div class="platform-business-img">
-                    <img src="/src/images/floatform-img.png" alt="">
+                    <img src="/images/floatform-img.png" alt="">
                 </div>
                 <div class="platform-business-fx">
                     <div class="platform-business-fx-intro">
@@ -52,13 +52,13 @@
                         <ul class="platform-business-fx-partner">
                              <li>partner company</li>
                              <li>
-                                 <img src="/src/images/LMAX-bo-group.png" alt="">
+                                 <img src="/images/LMAX-bo-group.png" alt="">
                              </li>
                              <li>
-                                 <img src="/src/images/identifier_RETINA.png" alt="">
+                                 <img src="/images/identifier_RETINA.png" alt="">
                              </li>
                              <li>
-                                 <img src="/src/images/bg-evo-logo_0.png" alt="">
+                                 <img src="/images/bg-evo-logo_0.png" alt="">
                              </li>
                         </ul>
                     </div>
@@ -84,14 +84,14 @@
                 </div>
             </div>
             <div class="platform-item-img">
-                <img src="src\images\platform-mockup-item01.png" alt="">
+                <img src="images\platform-mockup-item01.png" alt="">
             </div>
         </div>
     </section>
     <section id="platform-item">
         <div class="platform-item-content">
             <div class="platform-item-img">
-                <img src="src\images\platform-mockup-item02.png" alt="">
+                <img src="images/platform-mockup-item02.png" alt="">
             </div>
             <div class="platform-item-txt">
                 <h2 class="platform-item-title">Chat GPT 응용 앱개발</h2>
@@ -110,7 +110,7 @@
     <section id="platform-item">
         <div class="platform-item-content">
             <div class="platform-item-img">
-                <img id="vpn-image" src="src\images\platform-mockup-item03.png" alt="">
+                <img id="vpn-image" src="images\platform-mockup-item03.png" alt="">
             </div>
             <div class="platform-item-txt">
                 <h2 class="platform-item-title">VPN앱 서비스</h2>

@@ -4,7 +4,7 @@
 <footer id="main-footer">
     <section class="footer">
         <div id="footer-logo">
-            <img src="/src/images/eclozer-logo-white.png" alt="회사 로고">
+            <img src="images/eclozer-logo-white.png" alt="회사 로고">
         </div>
         <div class="company">
             <div class="company-title">이클로저</div>
