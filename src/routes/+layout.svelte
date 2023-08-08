@@ -1,11 +1,10 @@
-<!-- <aside>
+<aside>
     <section class="header-bar">
         <div class="hb-logo">
             <img src="images/eclozer-logo-white.png" alt="">
         </div>
-
     </section>
-</aside> -->
+</aside>
 
 <slot />
 
@@ -29,12 +28,27 @@
 
 
 <style>
+    aside{
+        position: relative;
+        background-color: black;
+    }
     .header-bar{
         width: 100%;
-        background-color: #fff;
+        height: 50px;
+        background-color: black;
+        opacity: 0.2;
+        margin: 0 auto;
+        position: fixed;
+        overflow: hidden;
+        
     }
     .hb-logo{
-        height: 10rem;
+        width: 150px;
+        background-color: black;
+    }
+    .hb-logo img{
+        width: 100%;
+       
     }
 
     #main-footer{
@@ -71,7 +85,7 @@
     margin-left: 4rem;
 } */
 .company div{
-    font-size: 17px;
+    font-size: 13px;
     text-align: center;
     /* margin-top: 1rem; */
     padding: 0.2rem;
@@ -91,6 +105,29 @@
     }
     .company{
         margin-left: 0;
+    }
+     .company div{
+        font-size: 12px;
+    }
+
+    .copy{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (max-width: 375px){
+    #footer-logo img{
+        margin: 1rem;
+        height: 3.5rem;
+        margin-left: 0;
+    }
+    .company{
+        margin-left: 0;
+    }
+
+    .company div{
+        font-size: 12px;
     }
 
     .copy{

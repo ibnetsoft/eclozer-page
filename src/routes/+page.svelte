@@ -424,7 +424,7 @@
     .history-content-contents>ul li{
         list-style: none;
         margin: 8px 0;
-        font-size: 0.9vw;
+        font-size: 13px;
       
     }
 
@@ -432,7 +432,7 @@
         font-weight: bold;
         padding:  0 8px 0 0;
         display: block;
-        font-size: 1.5vw;
+        font-size: 15px;
         
     }
 
@@ -645,12 +645,15 @@
         }
 
         .platform-link-box{
+            margin:  50px 0 50px 0;
             display: flex;
             
         }
 
         .platform-link-box a{
-            font-size: 16px;
+            width: 146px;
+            height: 19px;
+            font-size: 15px;
         }
 
         .history-content{
@@ -742,13 +745,14 @@
         .platform-link-box{
             flex-flow: column;
             align-items: center;
-            margin: 50px 0 0 0;
+            margin: 50px 0 50px 0;
         
         }
 
         .platform-link-box a{
-            width: 150px;
-            height: 41px;
+            width: 146px;
+            height: 19px;
+            font-size: 15px;
         }
 
         .history-content{
@@ -764,6 +768,9 @@
             padding: 0;
         }
 
+        .history-content-contents-list li{
+            font-size: 13px;
+        }
         
     }
 
