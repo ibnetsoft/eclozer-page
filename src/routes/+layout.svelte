@@ -1,3 +1,11 @@
+<!-- <aside>
+    <section class="header-bar">
+        <div class="hb-logo">
+            <img src="images/eclozer-logo-white.png" alt="">
+        </div>
+
+    </section>
+</aside> -->
 
 <slot />
 
@@ -21,6 +29,14 @@
 
 
 <style>
+    .header-bar{
+        width: 100%;
+        background-color: #fff;
+    }
+    .hb-logo{
+        height: 10rem;
+    }
+
     #main-footer{
     height: auto;
     display: flex;

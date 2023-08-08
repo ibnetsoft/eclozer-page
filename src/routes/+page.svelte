@@ -40,13 +40,12 @@
                 </div>
                 <div class="platform-business-fx">
                     <div class="platform-business-fx-intro">
-                            <p>Supported instrument types:</p>
-                            <p>Equities, ETFs, Futures, Options, Bonds, Forex, CFDs.</p>
+                            Supported instrument types:<br>
+                            Equities, ETFs, Futures, Options, Bonds, Forex, CFDs.
                             <hr style="width: 10px;">  
-                            <p><strong>The eclozer's system</strong></p>
-                            <p>allows trading and trading of both <strong>exchange-traded</strong> and <strong>over-the-counter derivatives</strong>, </p>
-                            <p>and has all the core features that include the lifecycle of each of the aforementioned types of products.</p>
-                        
+                            <strong>The eclozer's system</strong>
+                            allows trading and trading of both <strong>exchange-traded</strong> and <strong>over-the-counter derivatives</strong>,
+                            and has all the core features that include the lifecycle of each of the aforementioned types of products.
                     </div>
                     <div>
                         <ul class="platform-business-fx-partner">
@@ -130,7 +129,7 @@
             <div class="history-content-list">
                 <div class="history-content-title">연혁</div>
                 <div class="history-content-contents">
-                   <ul>
+                   <ul class="history-content-contents-list">
                         <li><span class="strong">2021</span>코인지갑앱 및 코인 관련 프로젝트 다수 진행</li>
                         <li><span class="strong">2020</span>가상화폐비즈니스 관련 컨설팅 및 코인 자동거래 프로그램 개발 및 판매</li>
                         <li><span class="strong">2019</span>센터코인 메인넷개발 및 코인거래소상장</li>
@@ -177,7 +176,7 @@
 
     .header-h2{
         color: #ffffff;
-        font-size: 40px;
+        font-size: 2vw;
         padding-bottom: 100px;
     }
     .header-link-btn{
@@ -203,13 +202,14 @@
         /* background-color: #ffffff; */
         display: flex;
         flex-flow: row wrap;
-        justify-content: space-between;
+        justify-content: center;
     }
 
     .header-platform-text>div{
-        width: 234px;
-        height: 304px;
+        width: 200px;
+        height: 250px;
         border: 2px solid #ffff;
+        margin: 5px 5px;
       
     }
 
@@ -262,7 +262,9 @@
 
 
     .platform-business-fx{
-        height: 500px;
+        width: 100%;
+        height: auto;
+        /* background-color: aqua; */
         /* background-color: aliceblue; */
         text-align: center;
         margin: 100px auto;
@@ -271,12 +273,13 @@
         align-items: center;
     }
     .platform-business-fx-intro{
-        font-size: 1.5vw;
+        /* font-size: 1.5vw; */
+        
     }
 
-    .platform-business-fx-intro p{
+    /* .platform-business-fx-intro p{
         font-size: 1vw;
-    }
+    } */
 
     .platform-business-fx-partner{
         display: flex;
@@ -308,7 +311,7 @@
 
     #platform-item{
         width: 100%;
-        margin: 300px 0;
+        margin: 0;
     }
 
     #platform-item::after{
@@ -316,7 +319,7 @@
         display: block;
         width: 20px;
         border: 1px solid black;
-        margin: 20rem auto;
+        margin: 10rem auto 5rem;
 
     }
     .platform-p2p-list{
@@ -374,7 +377,6 @@
 
 
     #history{
-        margin-top: 100px;
         width: 100%;
         height: auto;
         /* background-color: white; */
@@ -416,10 +418,13 @@
     .history-content-contents{
         flex-grow: 2;
     }
+    .history-content-contents ul{
+        width: 100%;
+    }
     .history-content-contents>ul li{
         list-style: none;
         margin: 8px 0;
-        font-size: 1.2rem;
+        font-size: 0.9vw;
       
     }
 
@@ -427,14 +432,14 @@
         font-weight: bold;
         padding:  0 8px 0 0;
         display: block;
-        font-size: 2rem;
+        font-size: 1.5vw;
         
     }
 
 
 /* --------------------------------반응형 --------------------------------------------------- */
    
-    @media (max-width:1650px){
+    /* @media (max-width:1650px){
         .header-h2{
             font-size: 2vw;
         }
@@ -443,13 +448,15 @@
         }
 
         .platform-business-fx-intro{
-            font-size: 1.2vw;
+            width: 666px;
         }
         .platform-item-title{
              font-size: 1vw;
        }
-    }
-    @media (max-width:1024px){
+    } */
+
+    /* ------------------------------------------------------------------------------ */
+    /* @media (max-width:1024px){
         h1{font-size: 6vw;}
         
         .header-h2{
@@ -459,11 +466,15 @@
             font-size: 1.5vw;
         }
 
-        .platform-business-fx-intro p{
-            font-size: 0.5vw;
-        }
+        .platform-business-fx{
+            width: 666px;
+        } */
 
-        .platform-item-title{
+        /* .platform-business-fx-intro p{
+            font-size: 0.5vw;
+        } */
+
+        /* .platform-item-title{
             font-size: 1.5vw;
         }
 
@@ -471,9 +482,9 @@
             width: 100%;
             text-align: center;
         }
-    }    
+    }     */
 
-    @media (max-width:680px){
+    /* @media (max-width:680px){
         .header-content{
             width: 90%;
         }
@@ -503,7 +514,31 @@
        .header-platform-text>div{
             margin: 50px auto 0  auto;
        }
-          
+
+
+
+       .platform-business-img{
+            width: 443px;
+        }
+
+        .platform-business-fx{
+            height: 443px;
+            height: auto;
+            margin: 30px auto;
+        }
+
+        .platform-business-fx-intro{
+            width: 443px;
+        }
+
+
+
+
+
+       .platform-business-fx{
+            width: 443px;
+        }
+       
         .platform-business-fx-partner{
             flex-flow: column;
         }
@@ -542,35 +577,194 @@
         .history-content-title{
             text-align: center;
         }
+
+        .history-content-contents>ul li{
+            font-size: 1.9vw;
+        }
+    } */
+
+ /* ------------------------------------------------------------------------------------------------------ */
+    @media (max-width:680px){
+        a{
+            width: 150px;
+            height: 50px;
+        }
+
+        .header-content{
+            width: 60%;
+            margin: 0 auto;
+        }
+
+        .platform-business-content{
+            width: 60%;
+        } 
+
+        .platform-business-content h1{
+            font-size: 25px;
+        }
+
+        .platform-business-fx-partner{
+            flex-flow: columns;
+            padding: 0;
+            display: block;
+            margin: 50px auto 0;
+        }
+
+        .platform-business-fx-partner li:first-child{
+            width: 100%;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .platform-business-fx-partner li img{
+            width:100%;
+            height: 50px;
+            object-fit: contain;
+            
+        }
+       
+
+        .platform-p2p-list li{
+            font-size: 13px;
+        }
+
+        
+
+        
+
+        .platform-item-content{
+            width: 60%;
+        }
+
+        .platform-item-txt{
+            width: 100%;
+        }
+
+        .platform-item p{
+            font-size: 13px;
+        }
+
+        .platform-link-box{
+            display: flex;
+            
+        }
+
+        .platform-link-box a{
+            font-size: 16px;
+        }
+
+        .history-content{
+            width: 60%;
+        }
+
+        .history-content-contents-list li{
+            width: 100%;
+            font-size: 15px;
+        }
+
+
     }
-    
+
+
+
+
+
+
+
+
+
+
+
+    /* -----------------------------------------------375픽셀--------------------------------------------------------------------- */
     @media (max-width:375px){
-        h1{
-            font-size: 2vw;
+        .header-content{
+            width: 90%;
         }
+
+        .header-con-logo{
+            margin: 0 auto;
+        }
+
         .header-h2{
-            font-size: 2vw;
+            margin: 0 auto;
         }
+
+        .header-link-btn{
+            margin: 0 auto 50px auto;
+        }
+
 
         .platform-business-content{
             width: 90%;
         }
 
-        .platform-business-fx{
-            height: 100px;
-            margin: 30px auto;
+        .platform-business-content h1{
+            font-size: 25px;
         }
 
-        #platform-item{
-            margin-top: 400px;
+        .platform-business-fx-intro{
+            width: 100%;
+        }
+        
+        .platform-business-fx-partner{
+            padding: 0;
         }
 
+        .platform-business-fx-partner li:first-child{
+            width: 100%;
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .platform-business-fx-partner li{
+            display: block;
+            margin: 0 auto;
+        }
 
         .platform-item-content{
-        
             width: 90%;
-            
         }
+
+        .platform-item-txt{
+            width: 100%;
+        }
+
+
+        .platform-p2p-list{
+            width: 100%;
+            height: auto;
+        }
+        .platform-p2p-list li{
+            font-size: 1rem;
+        }
+
+        .platform-link-box{
+            flex-flow: column;
+            align-items: center;
+            margin: 50px 0 0 0;
+        
+        }
+
+        .platform-link-box a{
+            width: 150px;
+            height: 41px;
+        }
+
+        .history-content{
+            width: 90%;
+        }
+        .history-content>h1{
+            font-size: 25px;
+            margin: 20px 0;
+        }
+
+        .history-content-contents-list{
+            width: 100%;
+            padding: 0;
+        }
+
+        
     }
 
    
