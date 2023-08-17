@@ -1,3 +1,36 @@
+<script>
+
+// import { onMount } from 'svelte';
+// import { writable } from 'svelte/store';
+
+//     // isVisible 변수를 writable store로 만듭니다.
+//     const isVisible = writable(false);
+
+//     onMount(() => {
+//         const imagesElement = document.querySelector('.platform-business-img');
+
+//         function handleScroll() {
+//             if (imagesElement) {
+//                 let imagePosition = imagesElement.getBoundingClientRect().top;
+//                 let windowHeight = window.innerHeight;
+//                 let viewPoint = windowHeight - imagePosition;
+
+//                 // isVisible store 업데이트
+//                 isVisible.set(viewPoint < 0);
+//             }
+//         }
+
+//         window.addEventListener('scroll', handleScroll);
+//         handleScroll();
+//     });
+</script>
+
+
+
+
+
+
+
 <main>
     <!-- <div class="cover-bg">
         <div class="eclozer-btn">
@@ -35,9 +68,12 @@
         <div class="platform-business-content">
             <h1>flatform-business</h1>
             <div>
-                <div class="platform-business-img">
-                    <img src="/images/floatform-img.png" alt="">
+                <!-- {#if $isVisible} -->
+                <div class="platform-business-img visible">
+                        <img src="/images/floatform-img.png" alt="">
                 </div>
+                <!-- {/if} -->
+                
                 <div class="platform-business-fx">
                     <div class="platform-business-fx-intro">
                             Supported instrument types:<br>
@@ -254,12 +290,34 @@
     .platform-business-img{
         width: 100%;
         height: 100%;
+       
     }
 
     .platform-business-img img{
         width: 100%;
+     
     }
 
+
+    /* .platform-business-img {
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+        transform: translateY(-100px);
+        transition: all 1s;
+    }
+
+    .platform-business-img img {
+        width: 100%;
+        opacity: 0.5;
+        transform: translateY(0px); 
+        transition: all 1s; 
+    }
+
+    .visible {
+        opacity: 1;
+        transform: translateY(0px);
+    } */
 
     .platform-business-fx{
         width: 100%;
@@ -658,6 +716,9 @@
 
         .history-content{
             width: 60%;
+        }
+        .history-content-contents-list{
+            padding: 0;
         }
 
         .history-content-contents-list li{
