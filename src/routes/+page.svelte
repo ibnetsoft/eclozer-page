@@ -37,7 +37,7 @@
             <a href="http://pf.kakao.com/_vgxlUT" target="_blank">ECLOZER</a>
         </div>   
     </div> -->
-
+    <!-- 레포권한설정 확인 -->
     <section id="main-header">
         <div class="header-content">
             <div class="header-con-logo">
